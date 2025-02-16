@@ -1,0 +1,496 @@
+{
+  "orders": [
+    {
+      "id": "1",
+      "reason": "Warranty claim",
+      "store_name": "Tech Gadgets",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 150,
+      "is_active": false,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Wireless Mouse",
+          "id": "M001",
+          "price": 25,
+          "quantity": 2
+        },
+        {
+          "name": "USB Keyboard",
+          "id": "K002",
+          "price": 50,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "reason": "Refund not processed",
+      "store_name": "Book World",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 45,
+      "is_active": false,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Fantasy Novel",
+          "id": "B001",
+          "price": 15,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "reason": "Item not received",
+      "store_name": "Fashion Hub",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 200,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Leather Jacket",
+          "id": "J001",
+          "price": 200,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "reason": "Wrong item sent",
+      "store_name": "Electro Mart",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 300,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "S001",
+          "price": 150,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "reason": "Damaged on arrival",
+      "store_name": "Gadget Plus",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 120,
+      "is_active": false,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Smartphone Case",
+          "id": "C001",
+          "price": 20,
+          "quantity": 3
+        },
+        {
+          "name": "Screen Protector",
+          "id": "SP001",
+          "price": 10,
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "reason": "Promotional discount not applied",
+      "store_name": "Home Essentials",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 85,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Pillow Set",
+          "id": "P001",
+          "price": 25,
+          "quantity": 2
+        },
+        {
+          "name": "Bed Sheet",
+          "id": "BS001",
+          "price": 35,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "reason": "Late delivery",
+      "store_name": "Kids Toy Store",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 60,
+      "is_active": true,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Building Blocks",
+          "id": "BB001",
+          "price": 30,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "reason": "Quality not as expected",
+      "store_name": "Outdoor Adventure",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 180,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Camping Tent",
+          "id": "CT001",
+          "price": 180,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "reason": "Incorrect billing",
+      "store_name": "Auto Parts",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 220,
+      "is_active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Oil Filter",
+          "id": "OF001",
+          "price": 15,
+          "quantity": 4
+        },
+        {
+          "name": "Brake Pads",
+          "id": "BP001",
+          "price": 50,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "reason": "Subscription issues",
+      "store_name": "Media Store",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 15,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Monthly Magazine",
+          "id": "MM001",
+          "price": 15,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "reason": "Delayed shipment",
+      "store_name": "Eco Goods",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 50,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Reusable Water Bottle",
+          "id": "W001",
+          "price": 25,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "reason": "Faulty product",
+      "store_name": "Gizmo World",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 299.99,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Drone",
+          "id": "D001",
+          "price": 299.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "reason": "Product not as described",
+      "store_name": "Fashion Forward",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 75,
+      "is_active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Summer Dress",
+          "id": "SD001",
+          "price": 75,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "reason": "Missing parts",
+      "store_name": "DIY Tools",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 120,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Hammer Drill",
+          "id": "HD001",
+          "price": 120,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "reason": "Wrong size sent",
+      "store_name": "Shoe Emporium",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 85,
+      "is_active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Running Shoes",
+          "id": "RS001",
+          "price": 85,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "reason": "Overcharged",
+      "store_name": "Pet Supplies",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 45,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Dog Food",
+          "id": "DF001",
+          "price": 45,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "reason": "Product never arrived",
+      "store_name": "Home Decor",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 99.99,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Table Lamp",
+          "id": "TL001",
+          "price": 99.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "reason": "Subscription cancellation issues",
+      "store_name": "Media Hub",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 19.99,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Online Magazine",
+          "id": "OM001",
+          "price": 19.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "reason": "Incorrect color",
+      "store_name": "Beauty Supplies",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 34,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Hair Dye",
+          "id": "HD002",
+          "price": 17,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "reason": "Late delivery",
+      "store_name": "Fitness Gear",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 150,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Yoga Mat",
+          "id": "YM001",
+          "price": 50,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "reason": "Damaged goods",
+      "store_name": "Electronics Express",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 400,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Smartphone",
+          "id": "SP001",
+          "price": 400,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "reason": "Unsatisfactory customer service",
+      "store_name": "Auto Gear",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 220,
+      "is_active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Car Seat Covers",
+          "id": "CSC001",
+          "price": 110,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "reason": "Item not as expected",
+      "store_name": "Kids Corner",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 30,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Plush Toy",
+          "id": "PT001",
+          "price": 30,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "reason": "Order mix-up",
+      "store_name": "Kitchen Essentials",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 180,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "Blender",
+          "id": "B001",
+          "price": 180,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "reason": "Expired product",
+      "store_name": "Grocery Online",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 25,
+      "is_active": false,
+      "decision": null,
+      "items": [
+        {
+          "name": "Organic Milk",
+          "id": "OM002",
+          "price": 12.5,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "reason": "Defective electronics",
+      "store_name": "Gadget Galaxy",
+      "store_logo": "https://placehold.co/100x100",
+      "store_url": "https://yamm.sa",
+      "amount": 299,
+      "is_active": true,
+      "decision": null,
+      "items": [
+        {
+          "name": "E-reader",
+          "id": "ER001",
+          "price": 299,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
