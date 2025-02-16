@@ -16,3 +16,6 @@ npm run dev
 
  ### Order Details
 ![image](https://github.com/user-attachments/assets/77ca7b8a-bbdc-47a2-9be7-3286a1142643)
+
+### Task instructions
+[Yamm task.pdf](https://github.com/user-attachments/files/18815839/Yamm.task.pdf)
